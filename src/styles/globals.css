@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#wallpaper{ animation: changeBg 10s infinite;}
+@keyframes changeBg{
+   0%,100%  {background-image: url("/img/wall1.png");}
+   50% {background-image: url("/img/wall2.png");}
+}
